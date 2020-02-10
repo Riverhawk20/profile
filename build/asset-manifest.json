@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.d1b05096.chunk.css",
-    "main.js": "/profile/static/js/main.e5b6422f.chunk.js",
-    "main.js.map": "/profile/static/js/main.e5b6422f.chunk.js.map",
-    "runtime-main.js": "/profile/static/js/runtime-main.3026efc4.js",
-    "runtime-main.js.map": "/profile/static/js/runtime-main.3026efc4.js.map",
-    "static/js/2.10801725.chunk.js": "/profile/static/js/2.10801725.chunk.js",
-    "static/js/2.10801725.chunk.js.map": "/profile/static/js/2.10801725.chunk.js.map",
-    "index.html": "/profile/index.html",
-    "precache-manifest.b37a366c9d0d55ed8bf799f795e9dd0c.js": "/profile/precache-manifest.b37a366c9d0d55ed8bf799f795e9dd0c.js",
-    "service-worker.js": "/profile/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/profile/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.10801725.chunk.js.LICENSE.txt": "/profile/static/js/2.10801725.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/profile/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.17d5b2c6.chunk.css",
+    "main.js": "/static/js/main.296dc19e.chunk.js",
+    "main.js.map": "/static/js/main.296dc19e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fdd276b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fdd276b5.js.map",
+    "static/js/2.834a6221.chunk.js": "/static/js/2.834a6221.chunk.js",
+    "static/js/2.834a6221.chunk.js.map": "/static/js/2.834a6221.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.400f58d423fcf77293c5643b671b1758.js": "/precache-manifest.400f58d423fcf77293c5643b671b1758.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.17d5b2c6.chunk.css.map": "/static/css/main.17d5b2c6.chunk.css.map",
+    "static/js/2.834a6221.chunk.js.LICENSE.txt": "/static/js/2.834a6221.chunk.js.LICENSE.txt",
+    "static/media/Dino1.png": "/static/media/Dino1.e3b91280.png",
+    "static/media/Dino2.png": "/static/media/Dino2.130d2346.png",
+    "static/media/android.png": "/static/media/android.f3d4eab1.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.da53dc34.png",
+    "static/media/c++.png": "/static/media/c++.8f42e018.png",
+    "static/media/jquery.png": "/static/media/jquery.a3af0655.png",
+    "static/media/ptcb1.png": "/static/media/ptcb1.136a63ee.png",
+    "static/media/ptcb2.png": "/static/media/ptcb2.5fea55ce.png",
+    "static/media/ptcb3.png": "/static/media/ptcb3.8f2966dd.png",
+    "static/media/react.png": "/static/media/react.21cef5f5.png",
+    "static/media/xml.png": "/static/media/xml.d5b65186.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3026efc4.js",
-    "static/js/2.10801725.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.e5b6422f.chunk.js"
+    "static/js/runtime-main.fdd276b5.js",
+    "static/js/2.834a6221.chunk.js",
+    "static/css/main.17d5b2c6.chunk.css",
+    "static/js/main.296dc19e.chunk.js"
   ]
 }
