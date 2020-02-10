@@ -12,7 +12,7 @@ import Placeholder from '../images/placeholder.png';
 import Android from '../images/android.png';
 import XML from '../images/xml.png';
 
-function project(props){
+function project(props){ 
     let images=[];
     for (let i=0;i<props.techArr.length;i++){
         let a;
