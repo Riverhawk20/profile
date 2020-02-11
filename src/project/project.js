@@ -18,7 +18,7 @@ function project(props){
         let a;
         switch (props.techArr[i]){
             case "c++":
-                a=CPlusPlus;
+                a=CPlusPlus; 
                 break;
             case "bootstrap":
                 a=Bootstrap;

@@ -17,7 +17,7 @@ function App() {
           <h3> Aspiring Software Engineer</h3>
           <h4> Studying CSE at The Ohio State University </h4>
         </div>
-      </div> 
+      </div>  
       {/* 
 
          <Project  name={" "}
