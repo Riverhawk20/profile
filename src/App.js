@@ -26,7 +26,6 @@ function App() {
           <h1> Caden Rice </h1>
           <h3> Aspiring Software Engineer</h3>
           <h4> Studying CSE at The Ohio State University </h4>
-          <h6>GPA: 3.9</h6>
         </div>
       </div>  
       {/* 
