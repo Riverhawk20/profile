@@ -82,7 +82,7 @@ function App() {
         appImg={[Dino1, Dino2]} 
         link={["https://u.osu.edu/fehsdp19pac0800c1/"]}
         appDescription={<div><p>This project was made for a software design project in the Fundamentals of Engineering Honors (FEH) class at OSU.</p>
-          <p>This project was done with one other person. We designed a game on the proteus that mimics the offline chrome dinosaur game. Information on the proteus can be found <a href="https://u.osu.edu/fehproteus/" target="_blank" rel="noopener">here</a>. The project was fully documented on a website that is linked to the green link button below. The password to access the site is FEH_SDP_2019.</p>
+          <p>This project was done with one other person. We designed a game on the proteus that mimics the offline chrome dinosaur game. Information on the proteus can be found <a rel="noopener noreferrer" href="https://u.osu.edu/fehproteus/" target="_blank">here</a>. The project was fully documented on a website that is linked to the green link button below. The password to access the site is FEH_SDP_2019.</p>
           <p>I personally worked on the game logic/code, linking the menu and game, statistics from the game to the menu, and various forms of documentation.</p></div>}
         techDescription={<div><p>The game was written in C++. The FEH library with C++ ran the graphics of the game.</p><p><b>The password for the link below is 'FEH_SDP_2019'</b></p></div>}
         techArr={["c++"]}
@@ -96,14 +96,14 @@ function App() {
           </div>}
         techDescription={<div> 
           <p>This app was developed in C# and Unity</p>
-          </div>}
+          </div>} 
         techArr={["unity", "c#"]}/>
         <Project  name={"Free Code Camp"}
         appImg={[FCC1,FCC2 ]} 
         link={["https://codepen.io/collection/nbwwQQ?cursor=ZD0wJm89MSZwPTEmdj0xMDQwMzU2"]}
         appDescription={<div> 
           <p>Completed approximately 400 hours of coursework focused on web development. Built several projects such as Tic Tac Toe, Simon Says, Twitch API display, and more. I also completed several algorithms.</p>
-          <p>The projects I made were written on codepen.io and are linked below. Lessons and algorithms were written on <a target="_blank" href="https://www.freecodecamp.org/">Free Code Camp</a>. I completed this primarily in 2017 and really got me into developing.</p>
+          <p>The projects I made were written on codepen.io and are linked below. Lessons and algorithms were written on <a rel="noopener noreferrer" target="_blank" href="https://www.freecodecamp.org/">Free Code Camp</a>. I completed this primarily in 2017 and really got me into developing.</p>
           </div>}
         techDescription={<div> 
           <p>Projects and lessons were programmed in html, css, bootstrap, and javascript.</p>

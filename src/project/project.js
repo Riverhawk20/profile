@@ -81,7 +81,7 @@ function project(props){
         if(props.name === "Internship: Android Testing Apps"){
             buttonText="App "+(i+1);
         }
-        link.push(<a href={props.link[i]}  target="_blank"><button className='btn btn-success'>{buttonText}</button></a>);
+        link.push(<a href={props.link[i]}  rel="noopener noreferrer" target="_blank"><button className='btn btn-success'>{buttonText}</button></a>);
     }
     return(
         <div className="container-fluid projectWrapper">
