@@ -11,6 +11,10 @@ import Java from '../images/java.png'
 import Placeholder from '../images/placeholder.png';
 import Android from '../images/android.png';
 import XML from '../images/xml.png';
+import SQL from '../images/sql.jpeg';
+import Firebase from '../images/firebase.jpg';
+import Unity from '../images/unity.jpg';
+import CSharp from '../images/c#.png'
 
 function project(props){ 
     let images=[];
@@ -20,11 +24,17 @@ function project(props){
             case "c++":
                 a=CPlusPlus; 
                 break;
+            case "c#":
+                a=CSharp; 
+                break;
             case "bootstrap":
                 a=Bootstrap;
                 break;
             case "javascript":
                 a=Javascript;
+                break;
+            case "firebase":
+                a=Firebase; 
                 break;
             case "reactjs":
                 a=ReactJS;
@@ -47,6 +57,12 @@ function project(props){
             case "xml":
                 a=XML;
                 break;
+            case "sql":
+                a=SQL;
+                break;
+            case "unity":
+                a=Unity;
+                break;
             default:
                 a=Placeholder;
                 break
@@ -59,8 +75,13 @@ function project(props){
         appImages.push(<img src={props.appImg[i]} id='app' alt='alt text'/>);
     }
     let link=[];
-    if(props.link!=""){
-        link.push(<a href={props.link} target="_blank"><button className='btn btn-success'>Link</button></a>);
+    let buttonText="Link";
+    
+    for(let i=0; i<props.link.length;i++){
+        if(props.name === "Internship: Android Testing Apps"){
+            buttonText="App "+(i+1);
+        }
+        link.push(<a href={props.link[i]}  target="_blank"><button className='btn btn-success'>{buttonText}</button></a>);
     }
     return(
         <div className="container-fluid projectWrapper">
